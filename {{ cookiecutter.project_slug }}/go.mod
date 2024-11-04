@@ -1,4 +1,4 @@
-module github.com/{{ cookiecutter.project_slug }}/{{ cookiecutter.project_slug }}
+module github.com/{{ cookiecutter.org_name }}/{{ cookiecutter.project_slug }}
 
 go 1.23.2
 

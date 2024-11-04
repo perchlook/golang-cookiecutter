@@ -9,12 +9,12 @@ import (
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
 
-	"github.com/candorship/candorship/api"
-	"github.com/candorship/candorship/database"
-	"github.com/candorship/candorship/models"
-	"github.com/candorship/candorship/repositories"
-	"github.com/candorship/candorship/web"
 	"github.com/labstack/echo/v4"
+	"github.com/{{ cookiecutter.org_name }}/{{ cookiecutter.project_slug }}/api"
+	"github.com/{{ cookiecutter.org_name }}/{{ cookiecutter.project_slug }}/database"
+	"github.com/{{ cookiecutter.org_name }}/{{ cookiecutter.project_slug }}/models"
+	"github.com/{{ cookiecutter.org_name }}/{{ cookiecutter.project_slug }}/repositories"
+	"github.com/{{ cookiecutter.org_name }}/{{ cookiecutter.project_slug }}/web"
 )
 
 type Template struct {

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/candorship/candorship/models"
-	"github.com/candorship/candorship/repositories"
 	"github.com/labstack/echo/v4"
+	"github.com/{{ cookiecutter.org_name }}/{{ cookiecutter.project_slug }}/models"
+	"github.com/{{ cookiecutter.org_name }}/{{ cookiecutter.project_slug }}/repositories"
 	"golang.org/x/oauth2"
 	oauthv2 "google.golang.org/api/oauth2/v2"
 	option "google.golang.org/api/option"

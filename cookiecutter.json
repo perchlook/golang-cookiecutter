@@ -1,8 +1,10 @@
 {
+  "org_name": "Organization Name or Username",
   "project_name": "Perch Lab's Go Cookiecutter",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
   "author": "Anonymous",
   "_copy_without_render": [
+        "*.yml",
         "*.js",
         "views/*",
         "*.css"

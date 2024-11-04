@@ -5,7 +5,7 @@ import (
 
 	"gorm.io/gorm"
 
-	"github.com/candorship/candorship/models"
+	"github.com/{{ cookiecutter.org_name }}/{{ cookiecutter.project_slug }}/models"
 )
 
 type UserRepository interface {

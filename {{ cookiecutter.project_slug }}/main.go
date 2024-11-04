@@ -4,8 +4,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/candorship/candorship/app"
 	"github.com/joho/godotenv"
+	"github.com/{{ cookiecutter.org_name }}/{{ cookiecutter.project_slug }}/app"
 )
 
 func main() {

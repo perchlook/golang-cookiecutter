@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/candorship/candorship/models"
+	"github.com/{{ cookiecutter.org_name }}/{{ cookiecutter.project_slug }}/models"
 )
 
 func TestCreateUser(t *testing.T) {
@@ -19,11 +19,6 @@ func TestCreateUser(t *testing.T) {
 		{
 			name:    "Successfully create user",
 			user:    &models.User{Username: "testuser", Email: "a@b.com"},
-			wantErr: false,
-		},
-		{
-			name:    "Successfully create user with organization",
-			user:    &models.User{Username: "testuser2", Email: "a@c.com"},
 			wantErr: false,
 		},
 		{
